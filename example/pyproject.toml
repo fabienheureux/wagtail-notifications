@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "example"
+version = "0.1.0"
+description = ""
+authors = ["Fabien Le Frapper <contact@fabienlefrapper.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+wagtail = "^2.9.2"
+django = "^3.0.8"
+wagtail-notifications = { path = "../" }
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
