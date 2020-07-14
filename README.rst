@@ -51,14 +51,26 @@ Integrations
 
 Why proxy django-notifications ?
 --------------------------------
-As we can't predict the future, and whethe django-notifications will really remain suitable for Wagtail's notifications, I prefer to make user import from wagtail_notifications directly as this package would maybe someday implement its own notifications center models, signals etc.
+As we can't predict the future, and whether django-notifications will really remain suitable for Wagtail's notifications, I prefer to make user import from wagtail_notifications directly as this package would maybe someday implement its own notifications center models, signals etc.
+
+Local development
+-----------------
+
+In the python environment of your choice, navigate to /examples
+- Run pip install -r requirements.txt
+- Run ./manage.py migrate
+- Run server ./manage.py runserver
 
 
 
-Credits
+License
 -------
+Distributed under the MIT License. See LICENSE for more information.
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+Contact / Maintaners
+--------------------
+Fabien Le Frapper
+- @fabienheureux_
+- email_
+.. _fabienheureux: https://github.com/fabienheureux
+.. _email: mailto:contact@fabienlefrapper.me
