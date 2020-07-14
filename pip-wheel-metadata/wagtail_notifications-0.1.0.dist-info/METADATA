@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: wagtail-notifications
+Version: 0.1.0
+Summary: 
+Author: Fabien Le Frapper
+Author-email: contact@fabienlefrapper.me
+Requires-Python: >=3.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: django (>=3.0.7,<4.0.0)
+Requires-Dist: django-notifications-hq (>=1.6.0,<2.0.0)
+Requires-Dist: wagtail (>=2.9,<3.0)

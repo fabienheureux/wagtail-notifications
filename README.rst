@@ -22,11 +22,38 @@ GitHub notifications alike app for Wagtail
 * Free software: MIT license
 * Documentation: https://wagtail-notifications.readthedocs.io.
 
+Getting started
+---------------
+- ``pip install wagtail-notifications``
+- Add to your ``settings.py``:
+.. code-block:: python
+  :linenos:
+    INSTALLED_APPS = [
+            ...,
+            'notifications',
+            'wagtail_notifications',
+            ...
+    ]
 
-Features
+
+
+
+Usage
 --------
+This Wagtail's package is mainly a proxy of django-notifications_ package. You can use every
 
-* TODO
+.. _django-notifications: https://github.com/django-notifications/django-notifications
+
+
+Integrations
+------------
+
+
+Why proxy django-notifications ?
+--------------------------------
+As we can't predict the future, and whethe django-notifications will really remain suitable for Wagtail's notifications, I prefer to make user import from wagtail_notifications directly as this package would maybe someday implement its own notifications center models, signals etc.
+
+
 
 Credits
 -------
