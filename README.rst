@@ -45,8 +45,12 @@ This Wagtail's package is mainly a proxy of django-notifications_ package. You c
 .. _django-notifications: https://github.com/django-notifications/django-notifications
 
 
-Integrations
+Integrations / settings
 ------------
+netlify
+        If ever you build your website using netlify, you can add your netlify post publish hook in settings
+
+
 
 
 Why proxy django-notifications ?
@@ -60,7 +64,6 @@ In the python environment of your choice, navigate to /examples
 - Run pip install -r requirements.txt
 - Run ./manage.py migrate
 - Run server ./manage.py runserver
-
 
 
 License
