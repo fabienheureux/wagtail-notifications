@@ -33,6 +33,8 @@ Getting started
             'notifications',
             'wagtail_notifications',
             ...
+            'wagtail.contrib.modeladmin',
+            ...
     ]
 
 
